@@ -12,6 +12,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 
+
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
     private Button spotifyButton;
     private Button scoresButton;
@@ -42,7 +43,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         switch (v.getId()) {
 
             case R.id.button_SpotifyApp:
-                Toast.makeText(MainActivity.this, "This button will launch \nmy Spotify Stream App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, " This button will launch \nmy Spotify Streamer App", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_ScoresApp:
                 Toast.makeText(MainActivity.this, "This button will launch my Scores App", Toast.LENGTH_SHORT).show();
@@ -57,7 +58,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this, "This button will launch my XYZ Reader App", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_CapstoneApp:
-                Toast.makeText(MainActivity.this, "This button will launch my capstone app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Capstone App", Toast.LENGTH_SHORT).show();
                 break;
 
         }
